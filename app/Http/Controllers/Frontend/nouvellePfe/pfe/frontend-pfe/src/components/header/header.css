@@ -1,0 +1,81 @@
+/*--------head------------*/
+
+.head {
+   position:relative;
+    padding: 20px 0;
+    color: #fff; 
+    z-index: 2;
+
+   }
+    
+  .logo h1 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #fff; 
+  }
+  .logo h3{
+  
+    color: #fff; 
+  }
+  .head .logo{
+    display: flex;
+  }
+  
+  .head .logo span{
+    color: rgb(21, 170, 150);
+  }
+ .header_socials a{
+  color: #eaf0f0;
+  margin-left: 10px;
+  transition: 0.5s;
+  font-size: 2rem;
+
+  }
+  .header_socials a:hover {
+    color:rgb(21, 170, 150);
+  }
+  /*--------head------------*/
+  /*--------header------------*/
+  header {
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 50px;
+  }
+  header .nav {
+    display: flex !important;
+  }
+  header li {
+    margin-right: 40px;
+  }
+  header ul {
+    padding: 20px 20px;
+  }
+  header ul li a {
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  header ul li a:hover {
+    color:rgb(21, 170, 150);
+  }
+  
+  .start button {
+    height: 70px;
+    background:  #1eb2a6 ;
+    text-align: center;
+    padding: 15px 60px;
+    color: #fff;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    transition:1.5s;
+    clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .start button:hover {
+    background-color:  #fff;
+    color: rgb(21, 170, 150);
+  }
+
+  /*--------header------------*/
+  
